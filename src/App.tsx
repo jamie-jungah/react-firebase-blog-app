@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { app } from './firebase';
+import { app } from 'firebaseApp';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 
 import Router from './components/Router';
