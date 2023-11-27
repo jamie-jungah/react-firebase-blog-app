@@ -38,6 +38,7 @@ export default function PostDetail() {
       {post ? (
         <div className='post__box'>
           <div className='post__title'>{post?.title}</div>
+          {post?.category && <div>{post?.category}</div>}
           <div className='post__profile-box'>
             <div className='post__profile' />
             <div className='post__author-name'>{post?.email}</div>
