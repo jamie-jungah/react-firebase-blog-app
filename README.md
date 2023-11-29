@@ -1,46 +1,11 @@
-# Getting Started with Create React App
+# React-Firebase TypeScript Blog App
+이 프로젝트는 React, Firebase 및 TypeScript를 사용해 만든 블로그 웹입니다. 이 웹은 사용자가 글을 작성하고, 읽고, 댓글을 작성할 수 있습니다. 실시간 데이터베이스 연동, 그리고 강력한 타입 시스템을 통해 효율적이고 안전한 블로그로 구현했습니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 기술 스택 상세 설명
+- React: 이 프로젝트의 프론트엔드는 React를 사용하여 구축되었습니다. React의 선언적 컴포넌트와 뛰어난 상태 관리 기능을 활용하여 사용자 인터페이스를 구성했습니다. 이를 통해 사용자 상호작용에 빠르고 부드럽게 반응하는 웹 애플리케이션을 제작할 수 있었습니다.
 
-## Available Scripts
+- Firebase: Firebase는 이 앱의 백엔드 서비스로 사용되었습니다. Firebase의 실시간 데이터베이스를 활용하여 사용자의 게시물과 코멘트를 실시간으로 처리하고 저장합니다. 또한, Firebase 인증을 통해 사용자 관리 및 보안이 강화되었습니다. 또한 Firebase-cli로 프로젝트를 배포하였습니다.
 
-In the project directory, you can run:
+- TypeScript: TypeScript를 사용하여 애플리케이션의 코드 베이스에 타입 안정성을 추가했습니다. 이는 개발 과정에서의 버그를 줄이고, 코드의 가독성과 유지보수성을 향상시키는 데 큰 도움이 되었습니다.
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### 이 프로젝트는 [패스트 캠퍼스 강의](https://fastcampus.co.kr/dev_online_newfefinal) 를 수강하며 만들었습니다.
